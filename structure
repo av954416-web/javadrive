@@ -1,0 +1,34 @@
+src/
+ └── main/
+     ├── java/com/carrental/
+     │    ├── CarRentalApplication.java
+     │    ├── controller/
+     │    │    ├── AuthController.java
+     │    │    ├── CarController.java
+     │    │    ├── BookingController.java
+     │    │    ├── ReviewController.java
+     │    │    ├── DashboardController.java
+     │    ├── model/
+     │    │    ├── User.java
+     │    │    ├── Car.java
+     │    │    ├── Booking.java
+     │    │    ├── Review.java
+     │    │    └── Payment.java
+     │    ├── repository/
+     │    │    ├── UserRepository.java
+     │    │    ├── CarRepository.java
+     │    │    ├── BookingRepository.java
+     │    │    ├── ReviewRepository.java
+     │    │    └── PaymentRepository.java
+     │    ├── service/
+     │    │    ├── AuthService.java
+     │    │    ├── CarService.java
+     │    │    ├── BookingService.java
+     │    │    ├── ReviewService.java
+     │    │    └── DashboardService.java
+     │    └── security/
+     │         ├── JwtAuthFilter.java
+     │         ├── JwtService.java
+     │         └── SecurityConfig.java
+     └── resources/
+          └── application.properties
